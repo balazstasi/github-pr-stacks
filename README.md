@@ -12,6 +12,22 @@ A **Group stacks** checkbox above the list turns grouping off. PRs then keep Git
 
 It also works on the **Closed** tab, so merged stacks are recognised too, and it follows your light or dark GitHub theme.
 
+## Screenshots
+
+Stacks grouped under a header, each with its own color (dark theme):
+
+![Stacks grouped under colored headers](docs/screenshots/grouped-dark.png)
+
+With **Group stacks** off, PRs keep GitHub's order and only get the colored rail and position badge:
+
+![Group stacks turned off](docs/screenshots/ungrouped-dark.png)
+
+The Closed tab, where merged stacks are recognised too:
+
+![Closed tab with merged stacks](docs/screenshots/closed-tab.png)
+
+_Screenshots were taken on a real PR list. PR titles were replaced with placeholder text. The extension's own UI is unchanged. GitHub's built-in `1/3` stack column is visible on wide screens; the extension adds the color coding, grouping and one-click **Open stack**._
+
 ## Install
 
 Works in Chrome, Edge, Brave, Arc, Helium and other Chromium browsers.
