@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub PR Stacks",
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/balazstasi/github-pr-stacks",
+  "description": "Highlights pull requests that belong to a GitHub stack in PR lists, groups them together, and links straight to the stack view.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
